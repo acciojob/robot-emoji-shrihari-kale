@@ -1,11 +1,4 @@
-/* body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-      
-        } */
+
 
         .head {
             position: relative;
@@ -75,13 +68,15 @@
         }
 
         .eyes {
-            position: absolute;
-            top: 25px;
-            left: 50%;
-            transform: translateX(-50%);
-            display: flex;
-            gap: 20px;
-        }
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 110px;             
+    display: flex;             
+    justify-content: space-around; 
+}
+
 
         .eye {
             width: 30px;
