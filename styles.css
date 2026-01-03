@@ -17,12 +17,16 @@
             border-radius: 20px;
         }
 
-        .light {
-            position: absolute;
-            top: -20px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
+      .light {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;              
+    flex-direction: column;     
+    align-items: center;        
+}
+
 
         .stick {
             width: 10px;
@@ -41,10 +45,13 @@
         }
 
         .ears {
-            position: relative;
-            width: 100%;
-            height: 100%;
-        }
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;               
+    justify-content: space-between;
+}
+
 
         .ear {
             position: absolute;
